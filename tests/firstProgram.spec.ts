@@ -41,6 +41,7 @@ test('launching chromium Binary',async()=>{
     console.log('this is first program');
         
     let browser = await chromium.launch({
+        
         headless:false
     });
 
@@ -55,7 +56,7 @@ test('launching chromium Binary',async()=>{
 })
 
 /*
-    Instead of adding the above steps to launch a browser and navigate to any page/URL,we can use "fixtures"
+    Instead of adding the above steps to launch a browser and navigate to any page/URL,we can use "page fixtures"
         Syntax:async({page})
 */
 
