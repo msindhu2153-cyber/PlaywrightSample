@@ -14,7 +14,7 @@
     6)page.close():used to close the webpage
 
     Browser Information Methods:extract browser information using browser fixture
-    1)browser.
+    1)browser.browserType()
 
     Other Supported Methods:
     1)page.setviewportSize():to maximize the webpage
